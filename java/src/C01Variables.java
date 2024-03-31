@@ -1,7 +1,9 @@
 /** 변수와 자료형 (variables & data type)
  * 자바는 강한 타입 언어.
  * int, float, long, true, false 등 외에는 모두 객체로 이루어져 있으며,
- * 객체가 아닌 위 변수들은 원시 자료형이라고 한다.
+ * 객체가 아닌 위 변수들은 원시 자료형(primitive)이라고 한다.
+ * - 각 원시자료형의 wrapper 클래스라고 원시자료형에 대한 클래스가 존재한다.
+ *      - int -> Integer, long -> Long, boolean -> Boolean 등..
  *
  * - 변수를 포함해서 클래스나 메서드에 붙는 이름을
  *      자바에서는 식별자(identifier)라고 한다.
@@ -58,10 +60,18 @@ public class C01Variables {
         System.out.printf("Exp-exp: %f, %f\n", 1.234e2, 1e9);
         // 123400.000000, 1000000000.000000
 
-        /* Base */
+        /* Base 8, 16 */
         int octal = 023;
         int hex = 0xF;
-        System.out.println(octal);
-        System.out.println(hex);
+        System.out.println(octal);  // 19
+        System.out.println(hex);  // 15
+
+        /* character */
+        varChar = 'A';  // not ""
+        char fromAscii = 97;  // a
+        char fromUnicode = '\u0062';  // b
+        System.out.printf("char: '%c'\tascii: '%c'\tunicode: '%c'\n", varChar, fromAscii, fromUnicode);
+        varString = "is string~ text_text";
+        System.out.printf("string: \"%s\"", varString);
     }
 }
