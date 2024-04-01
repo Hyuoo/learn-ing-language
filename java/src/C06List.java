@@ -1,6 +1,15 @@
 /** ArrayList
  * 가변 길이의 배열.
  * 일반적으로 ArrayList를 사용하는데, Vector, LinkedList 등이 있다.
+ *
+ * - Method
+ *      - add
+ *      - get
+ *      - size
+ *      - contains
+ *      - remove
+ * - array -> list
+ * - sort
  */
 import java.util.ArrayList;
 import java.util.Arrays;  // 배열로부터 List를 만들기 위한

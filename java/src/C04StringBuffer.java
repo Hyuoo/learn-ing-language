@@ -3,6 +3,11 @@
  *
  * - String을 사용해도 동일한 동작을 할 수 있지만, immutable이다.
  * - StringBuilder라는 것도 있다.
+ *
+ * - Method
+ *      - append
+ *      - insert
+ *      - substring
  */
 
 public class C04StringBuffer {

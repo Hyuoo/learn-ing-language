@@ -5,6 +5,7 @@
  *      -> Math.pow(a, b) :return double:
  * - 파이썬의 몫 연산(//)이 자바에는 없음.
  *      -> 나누기 자체가 넓은 타입으로 자동 캐스팅으로 연산 됨.
+ * - and, or, not  ->  &&, ||, !
  * - 자바에는 unsigned right shift operator (>>>)가 있다.
  */
 
